@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to right,#1e1e2f,#3e3e6b);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding:30px;
+    border-radius:15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    width: 90%;
+    max-width :400px;
+    text-align: center;
+}
+input{
+    padding:10px;
+    width:80%;
+    border-radius: 8px;
+    border:none;
+    margin: 15px 0;
+    
+    
+}
+button{
+  background-color: #322358;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: #9b59b6;
+}
+#fortuneText {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #f9e79f;
+}
+.heading{
+    color: #E7DAB4;
+}
+.para{
+    font-family:"Arizonia", cursive ;
+    font-weight: 400;
+    font-size: 30px;
+    color: #F8C16A;
+}
